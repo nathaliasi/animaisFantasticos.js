@@ -1,0 +1,23 @@
+{
+  "name": "animaisfantasticos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development --watch --entry ./js/script.js -o ./",
+    "build": "webpack --mode production --entry ./js/script.js -o ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/plugin-transform-runtime": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "babel-loader": "^9.1.2",
+    "eslint": "^8.43.0",
+    "eslint-plugin-react": "^7.32.2",
+    "webpack": "^5.87.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
